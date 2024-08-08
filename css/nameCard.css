@@ -1,0 +1,109 @@
+.collectBox {
+  background-color: #FFF;
+  width: 400px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+h3 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.profileBox {
+  width: 100%;
+  margin: 0 20px;
+  box-sizing: border-box;
+}
+.profileBox input {
+  display: block;
+  min-height: 50px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: calc(100% - 40px); /* 부모 요소에 맞게 너비 설정 */
+  border-radius: 4px;
+  box-sizing: border-box; /* 패딩과 보더를 포함한 너비 계산 */
+}
+
+.profileBox input:focus {
+  border: 1.5px solid #e43212;
+  outline: none;
+}
+
+.collectBox .btnMake {
+  background-color: #FFA32B;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btnMake:active {
+  transform: translateY(3px)
+}
+
+.result {
+  width: 360px; /*400-패딩크기40*/
+  height: 180px; /*240-패딩크기60*/
+  border-radius: 6px;
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap:10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  padding: 30px 20px 30px 20px;
+}
+
+img {
+  flex: 1;
+  object-fit: cover;
+}
+
+.resultProfiles {
+  flex: 1;
+  height: 100%;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resultProfile {
+  
+  font-size: 15px;
+  width: 100%; 
+  text-align: left;
+  line-height: 30px;
+}
+
+ .name {
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 16px;
+}
